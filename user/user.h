@@ -6,7 +6,7 @@ int fork(void);
 int exit(int) __attribute__((noreturn));
 int wait(int*);
 int pipe(int*);
-int write(int, const void*, int);
+int write(int, const void*, int); // int: *:指向開始寫的位置 int: 寫幾位 
 int read(int, void*, int);
 int close(int);
 int kill(int);
